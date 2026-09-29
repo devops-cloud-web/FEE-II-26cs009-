@@ -2,11 +2,9 @@
 
 
 function Product({cart,setCart,product}){
-
     function addtocart(){
         setCart([...cart,product])
     }
-
     return (<>
         <div>
                 <h1>ProductName: {product.productName}</h1>
