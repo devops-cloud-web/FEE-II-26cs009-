@@ -8,7 +8,6 @@ import Checkout from "./Checkout";
 function App(){
 
   const [cart,setCart] = useState([]);
-
   return (<>
       <Navbar cart={cart}/>
       <ProductList cart={cart} setCart={setCart}/>
